@@ -1,0 +1,20 @@
+.Todo-counter {
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 48px;
+  font-weight: 400;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.todo-counter__span {
+  font-weight: 700;
+  margin: 0 8px;
+}
+
+.todo-counter__span:first-child {
+  margin-left: 0;
+}
