@@ -1,0 +1,68 @@
+.add-todo {
+  width: 100%;
+  max-width: 400px;
+  padding: 32px 40px;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  box-shadow: 0px 5px 50px 0px #61DAFA80;
+}
+
+.add-todo__title {
+  max-width: 150px;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 24px;
+}
+
+.add-todo__textarea {
+  width: 100%;
+  padding: 32px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  margin-bottom: 14px;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+  box-shadow: 0px 5px 50px 0px #20232940;
+}
+
+.add-todo__textarea:focus {
+  outline: transparent;
+  border: 2px solid #61DAFA;
+}
+
+.add-todo__warning {
+  margin-bottom: 14px;
+  font-size: 14px;
+  color: #fe2e2e;
+}
+
+.add-todo__buttons-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.add-todo__button-cancel,
+.add-todo__button-add {
+  padding: 16px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.add-todo__button-add {
+  background-color: #61DAFA;
+  box-shadow: 0px 5px 25px 0px #61DAFA80;
+}
+.add-todo__button-add:hover {
+  background-color: #0D7792;
+  color: white;
+}
+
+.add-todo__button-cancel:hover {
+  background-color: rgba(97, 218, 250, .2);
+}
